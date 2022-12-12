@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary:#4F9F1E;
+    --primary-light:#E3F3D3;
+    --secondary-color:#F8D106;
+    --secondary-light:#FCF6D6;
+    --black:#000000;
+    --black-light1x:#383838;
+    --black-light2x:#636363;
+    --black-light3x:#878787;
+    --grey:#C0C0C0;
+    --white:#fff;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
