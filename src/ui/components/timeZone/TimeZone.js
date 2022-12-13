@@ -4,7 +4,7 @@ function TimeZone() {
     return (
         <>
             <div className='TimeZone'>
-                <p className='text-center'>Today , 11-12-2022</p>
+                <p className='text-center'>Today , 11-12-20222</p>
             </div>
         </>
     )
