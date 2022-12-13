@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route,BrowserRouter as Router, Routes } from 'react-router-dom'
 import AllTask from '../pages/allTask/AllTask'
 import Dashboard from '../pages/dashboard/DashBoard'
 
