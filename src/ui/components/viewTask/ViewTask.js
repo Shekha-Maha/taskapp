@@ -1,9 +1,9 @@
 import React from 'react'
 
-function CreateTask() {
+function ViewTask() {
     return (
         <></>
     )
 }
 
-export default CreateTask
+export default ViewTask

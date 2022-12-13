@@ -1,6 +1,7 @@
 import React from 'react'
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route,BrowserRouter as Router, Routes } from 'react-router-dom'
 import AllTask from '../pages/allTask/AllTask'
+import CreateTask from '../pages/createTask/CreateTask'
 import Dashboard from '../pages/dashboard/DashBoard'
 
 function MainRoutes() {
@@ -8,12 +9,11 @@ function MainRoutes() {
     <div>
       <Router>
         <Routes>
-          <Route exact path='/' element={<Dashboard/>} />
-          <Route exact path='/all_task' element={<AllTask/>} />
+          {/* <Route exact path='/' element={<Dashboard />} /> */}
+          <Route exact path='/' element={<AllTask />} />
+          {/* <Route exact path='/Create-Task' element={<CreateTask />} /> */}
+          {/* <Route exact path='/all_task' element={<AllTask/>} /> */}
 
-          {/* <Route element={<Redirect to="/"/>}/>  */}
-
-          {/* <Redirect to="/"/>  */}
         </Routes>
         
       </Router>
