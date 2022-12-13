@@ -1,17 +1,33 @@
-.optionButton {
+.optionContainer {
   display: flex;
-  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.optionContainer .optionWrapper {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 10px;
+  flex: 1;
+  margin-top: 15px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   text-decoration: none;
+}
+.optionContainer .optionButton {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-.optionButton span {
-  font-size: 18px;
+.optionContainer .optionButton span {
+  font-size: 16px;
   margin-right: 10px;
   font-weight: 400;
   color: var(--primary);
 }
-.optionButton .imgContainer {
+.optionContainer .optionButton .imgContainer {
   height: 50px;
   width: 50px;
   display: flex;
