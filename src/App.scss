@@ -35,7 +35,7 @@ p{
 }
 .Light_bg{
     background: var(--white);
-    padding: 20px;
+    padding: 20px 10px;
     border-radius: 10px;
 }
 
@@ -43,5 +43,6 @@ p{
     p{
         font-weight: 600;
         font-size: 18px;
+        color: rgba(0, 0, 0, 0.61);
     }
 }
