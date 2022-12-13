@@ -1,37 +1,21 @@
-.Create_btn{
+.optionButton{
     display: flex;
     width: 100%;
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
-    font-weight: 600;
     span{
-        font-size: 26px;
+        font-size: 18px;
         margin-right: 10px;
+        font-weight: 400;
+        color: var(--primary);
     }
-    h1{
-        margin: 0;
-        padding: 16px 23px;
-        border-radius: 50%;
-        background: var(--secondary-light);
-    }
-}
-.Create_btn2{
-    display: flex;
-    width: 100%;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary);
-    font-weight: 600;
-    span{
-        font-size: 26px;
-        margin-right: 50px;
-    }
-    h1{
-        margin: 0;
-        padding: 16px 23px;
+    .imgContainer{
+        height:50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 50%;
         background: var(--secondary-light);
     }

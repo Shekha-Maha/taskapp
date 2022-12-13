@@ -10,7 +10,7 @@ function Profile() {
                     <img src={ProfileImage}/>
                 </div>
                 <div className='Profile_name'>
-                    <h3>Md Shaiful Islam</h3>
+                    <p>Md Shaiful Islam</p>
                 </div>
             </div>
         </div>

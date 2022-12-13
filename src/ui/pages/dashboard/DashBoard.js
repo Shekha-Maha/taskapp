@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Profile from '../../components/profile/Profile'
 import './DashBoard.css'
+import plus from '../../../ui/assets/plus.png'
+import rightArrow from '../../../ui/assets/rightArrow.png'
 
 function Dashboard() {
   return (
@@ -10,17 +12,20 @@ function Dashboard() {
         <div className='container'>
           <div>
             <Profile />
-
             <div className='Light_bg mt-5'>
-              <Link to="Create-Task" className='Create_btn'>
+              <Link to="Create-Task" className='optionButton'>
                 <span>Create Task</span>
-                <h1>+</h1>
+                <div className='imgContainer'>
+                  <img src={plus} height={15} />
+                </div>
               </Link>
             </div>
             <div className='Light_bg mt-3'>
-              <Link to="Create-Task" className='Create_btn2'>
+              <Link to="Create-Task" className='optionButton'>
                 <span>All Task</span>
-                <h1>&#62;</h1>
+                <div className='imgContainer'>
+                  <img src={rightArrow} height={15} />
+                </div>
               </Link>
             </div>
           </div>
