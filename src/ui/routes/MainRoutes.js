@@ -11,6 +11,9 @@ function MainRoutes() {
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/all_task' element={<AllTask />} />
+          {/* <Route exact path='/' element={<Dashboard />} /> */}
+          {/* <Route exact path='/' element={<AllTask />} /> */}
+          <Route exact path='/' element={<CreateTask />} />
           {/* <Route exact path='/Create-Task' element={<CreateTask />} /> */}
           {/* <Route exact path='/all_task' element={<AllTask/>} /> */}
 

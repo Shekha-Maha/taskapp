@@ -17,8 +17,8 @@
   height: 100%;
   margin-top: 5px;
 }
-.Profile .profile_name p {
+.Profile .Profile_name p {
   font-size: 18px;
   color: var(--black);
-  font-weight: 600;
-}/*# sourceMappingURL=Profile.css.map */
+  font-weight: 500;
+}/*# sourceMappingURL=profile.css.map */
