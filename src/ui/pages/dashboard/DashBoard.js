@@ -12,7 +12,7 @@ function Dashboard() {
         <div className='container'>
           <div>
             <Profile />
-            <div className='Light_bg mt-5'>
+            <div className='Light_bg mt-3'>
               <Link to="Create-Task" className='optionButton'>
                 <span>Create Task</span>
                 <div className='imgContainer'>

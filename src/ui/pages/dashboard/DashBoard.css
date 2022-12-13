@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .optionButton span {
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 10px;
   font-weight: 400;
   color: var(--primary);

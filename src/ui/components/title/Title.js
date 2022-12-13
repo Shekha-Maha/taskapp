@@ -1,11 +1,11 @@
 import React from 'react'
 import './Title.css'
 
-function Title() {
+function Title(props) {
     return (
         <>
             <div className='Title'>
-                <h2>All Tasks</h2>
+                <h2>{props.name}</h2>
             </div>
         </>
     )
