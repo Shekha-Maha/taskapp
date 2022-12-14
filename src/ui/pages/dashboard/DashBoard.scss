@@ -1,40 +1,62 @@
-.optionContainer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .optionWrapper{
-        background: var(--white);
-        border-radius: 10px;
-        padding: 10px;       
-        flex: 1;
-        margin-top:15px;
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        text-decoration: none;
+
+.container{
+    .pageTitle{
+        font-size: 22px;
+        color: var(--black);
+        font-weight: 600;
+        padding-bottom: 5px;
+    
     }
-    .optionButton{
+    .optionContainer{
         display: flex;
         align-items: center;
-        justify-content: center;
-        span{
-            font-size: 16px;
-            margin-right: 10px;
-            font-weight: 400;
-            color: var(--primary);
-        }
-        .imgContainer{
-            height:50px;
-            width: 50px;
+        justify-content: space-between;
+        .optionWrapper{
+            background: var(--white);
+            border-radius: 10px;
+            padding: 10px;       
+            flex: 1;
+            margin-top:15px;
+            height: 150px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 50%;
-            background: var(--secondary-light);
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .optionButton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span{
+                font-size: 16px;
+                margin-right: 10px;
+                font-weight: 400;
+                color: var(--primary);
+            }
+            .imgContainer{
+                height:50px;
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: var(--secondary-light);
+            }
+        }
+    
+    }
+    .taskChart{
+        margin-top: 25px;
+        p{
+            font-size: 18px;
+            color: var(--black);
+            font-weight: 600;
+            text-align: center;
+    
         }
     }
+    
 
 }
 

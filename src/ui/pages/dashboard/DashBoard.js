@@ -5,12 +5,14 @@ import './DashBoard.css'
 import plus from '../../../ui/assets/plus.png'
 import rightArrow from '../../../ui/assets/rightArrow.png'
 import TaskChart from '../../components/taskChart/TaskChart'
+import Title from '../../components/title/Title'
 
 function Dashboard() {
   return (
     <>
-      <div className='MainBackground pt-5'>
+      <div className='MainBackground pt-3'>
         <div className='container'>
+         <Title name='Dashboard' />
           <div>
             <Profile />
             <div className='optionContainer'>
@@ -38,6 +40,7 @@ function Dashboard() {
               <p>Task Status</p>
               <TaskChart />
             </div>
+
           </div>
         </div>
       </div>

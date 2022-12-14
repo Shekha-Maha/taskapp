@@ -6,10 +6,10 @@ import ViewTask from '../../components/viewTask/ViewTask'
 
 function AllTask() {
   return (
-    <div className='MainBackground pt-4'>
+    <div className='MainBackground pt-3'>
       <div>
         <div className='container'>
-          <Title />
+          <Title name="All Task" />
           <div className=''>
             <TimeZone />
             <ViewTask />

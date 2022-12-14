@@ -4,17 +4,18 @@ import './ViewTask.css'
 
 function ViewTask() {
 
-    const data = [1, 2, 3];
-
-
+    const data = [1, 2, 3, 4, 5];
 
     return (
         data.map(() => {
             return (
                 <div className='ViewTask mt-3'>
                     <div className='Light_bg px-4'>
-                        <h1>Watching World</h1>
-                        <p className='pb-4'>Argentine Vs Netherland</p>
+                        <h1>Watching World cup 2022</h1>
+                        <div className='taskDetails'>
+                            <p className='pb-3'>Argentine Vs Netherland Argentine Vs Netherland</p>
+                        </div>
+
 
                         <div className='Timing_Section'>
                             <span>Date: Sat, 14-12-2022</span>

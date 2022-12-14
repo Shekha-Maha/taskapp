@@ -1,9 +1,15 @@
 .ViewTask h1 {
-  font-size: 22px;
+  font-size: 18px;
+  font-weight: 600;
 }
-.ViewTask p {
-  font-size: 17px;
-  color: rgba(0, 0, 0, 0.47);
+.ViewTask .taskDetails {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: "...";
+}
+.ViewTask .taskDetails p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.61);
 }
 .ViewTask .Timing_Section {
   display: flex;
@@ -12,7 +18,7 @@
 }
 .ViewTask .Timing_Section span {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.61);
+  color: rgba(0, 0, 0, 0.47);
 }
 .ViewTask .Timing_Section .Timing {
   display: flex;
@@ -29,9 +35,9 @@
   background: var(--secondary-light);
   border: none;
   padding: 5px 25px;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
-  color: var(--secondary-color);
+  color: var(--secondary);
   border-radius: 5px;
-  margin-top: 20px;
+  margin-top: 15px;
 }/*# sourceMappingURL=ViewTask.css.map */
