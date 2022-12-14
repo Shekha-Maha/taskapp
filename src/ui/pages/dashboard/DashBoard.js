@@ -33,8 +33,9 @@ function Dashboard() {
               </Link>
 
             </div>
-            
-            <div>
+
+            <div className='taskChart'>
+              <p>Task Status</p>
               <TaskChart />
             </div>
           </div>

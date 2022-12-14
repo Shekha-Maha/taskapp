@@ -4,30 +4,32 @@ import './TaskChart.css'
 
 function TaskChart() {
     return (
+
         <div className="taskChart_container">
             <DonutChart
+                style={{ height: '100%', width: '100%' }}
+
                 data={[
                     {
-                        label: 'a',
-                        value: 25,
+                        label: 'Completed on time',
+                        value: 70,
                     },
                     {
-                        label: '',
+                        label: 'Delayed',
                         value: 10,
-                        isEmpty: true,
                     },
                     {
-                        label: 'b',
+                        label: 'Postponed',
+                        value: 10,
+                    },
+                    {
+                        label: 'Yet to come',
                         value: 5,
                     },
                     {
-                        label: 'c',
-                        value: 15,
-                    },
-                    {
-                        label: 'd',
-                        value: 10,
-                    },
+                        label: 'Skipped',
+                        value: 5,
+                    }
                 ]}
             />
 
