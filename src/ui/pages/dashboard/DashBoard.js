@@ -4,6 +4,7 @@ import Profile from '../../components/profile/Profile'
 import './DashBoard.css'
 import plus from '../../../ui/assets/plus.png'
 import rightArrow from '../../../ui/assets/rightArrow.png'
+import TaskChart from '../../components/taskChart/TaskChart'
 
 function Dashboard() {
   return (
@@ -12,21 +13,30 @@ function Dashboard() {
         <div className='container'>
           <div>
             <Profile />
-            <div className='Light_bg mt-3'>
-              <Link to="Create-Task" className='optionButton'>
-                <span>Create Task</span>
-                <div className='imgContainer'>
-                  <img src={plus} height={15} />
+            <div className='optionContainer'>
+              <Link to="create_task" className='optionWrapper'>
+                <div className='optionButton'>
+                  <span>Create Task</span>
+                  <div className='imgContainer'>
+                    <img src={plus} height={15} />
+                  </div>
                 </div>
               </Link>
+
+              <Link to="all_task" className='optionWrapper ms-3'>
+                <div className='optionButton'>
+                  <span>All Task</span>
+                  <div className='imgContainer'>
+                    <img src={rightArrow} height={15} />
+                  </div>
+                </div>
+              </Link>
+
             </div>
-            <div className='Light_bg mt-3'>
-              <Link to="Create-Task" className='optionButton'>
-                <span>All Task</span>
-                <div className='imgContainer'>
-                  <img src={rightArrow} height={15} />
-                </div>
-              </Link>
+
+            <div className='taskChart'>
+              <p>Task Status</p>
+              <TaskChart />
             </div>
           </div>
         </div>
