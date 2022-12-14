@@ -25,6 +25,10 @@ p {
   margin: 0;
 }
 
+button {
+  border: none;
+}
+
 .MainBackground {
   background: var(--primary-light);
   width: 100%;
