@@ -1,1 +1,5 @@
-/*# sourceMappingURL=AllTask.css.map */
+.mainBackground {
+  background: var(--primary-light);
+  min-height: 100vh;
+  padding-bottom: 115px;
+}/*# sourceMappingURL=AllTask.css.map */

@@ -1,9 +1,14 @@
-.Profile {
+.profileContainer {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 16px;
+}
+.profileContainer .Profile {
   display: flex;
   align-items: center;
   justify-content: left;
 }
-.Profile .Profile_img {
+.profileContainer .Profile .Profile_img {
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -12,12 +17,12 @@
   overflow: hidden;
   margin-right: 10px;
 }
-.Profile .Profile_img img {
+.profileContainer .Profile .Profile_img img {
   width: 100%;
   height: 100%;
   margin-top: 5px;
 }
-.Profile .Profile_name p {
+.profileContainer .Profile .Profile_name p {
   font-size: 18px;
   color: var(--black);
   font-weight: 500;

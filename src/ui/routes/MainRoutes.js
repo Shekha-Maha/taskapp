@@ -9,17 +9,12 @@ function MainRoutes() {
   return (
     <div>
       <Router>
-      <BottomNav/>  
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
           <Route exact path='/all_task' element={<AllTask />} />
-          {/* <Route exact path='/' element={<Dashboard />} /> */}
-          {/* <Route exact path='/' element={<AllTask />} /> */}
-          <Route exact path='/' element={<CreateTask />} />
-          {/* <Route exact path='/Create-Task' element={<CreateTask />} /> */}
-          {/* <Route exact path='/all_task' element={<AllTask/>} /> */}
+          <Route exact path='/create_task' element={<CreateTask />} />
         </Routes> 
-     
+        <BottomNav/>  
       </Router>
     </div>
   )

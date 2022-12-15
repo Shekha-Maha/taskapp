@@ -4,7 +4,7 @@ import './Profile.css'
 
 function Profile() {
     return (
-        <div className='Light_bg'>
+        <div className='profileContainer'>
             <div className='Profile'>
                 <div className='Profile_img'>
                     <img src={ProfileImage}/>

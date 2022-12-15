@@ -1,15 +1,19 @@
-.container .pageTitle {
+.mainBackground {
+  background: var(--primary-light);
+  min-height: 100vh;
+}
+.mainBackground .container .pageTitle {
   font-size: 22px;
   color: var(--black);
   font-weight: 600;
   padding-bottom: 5px;
 }
-.container .optionContainer {
+.mainBackground .container .optionContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container .optionContainer .optionWrapper {
+.mainBackground .container .optionContainer .optionWrapper {
   background: var(--white);
   border-radius: 10px;
   padding: 10px;
@@ -22,18 +26,18 @@
   cursor: pointer;
   text-decoration: none;
 }
-.container .optionContainer .optionButton {
+.mainBackground .container .optionContainer .optionButton {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container .optionContainer .optionButton span {
+.mainBackground .container .optionContainer .optionButton span {
   font-size: 16px;
   margin-right: 10px;
   font-weight: 400;
   color: var(--primary);
 }
-.container .optionContainer .optionButton .imgContainer {
+.mainBackground .container .optionContainer .optionButton .imgContainer {
   height: 50px;
   width: 50px;
   display: flex;
@@ -42,10 +46,10 @@
   border-radius: 50%;
   background: var(--secondary-light);
 }
-.container .taskChart {
+.mainBackground .container .taskChart {
   margin-top: 25px;
 }
-.container .taskChart p {
+.mainBackground .container .taskChart p {
   font-size: 18px;
   color: var(--black);
   font-weight: 600;

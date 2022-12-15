@@ -1,37 +1,41 @@
-.ViewTask h1 {
+.viewTaskContainer .viewTaskWrapper {
+  background: var(--white);
+  border-radius: 10px;
+}
+.viewTaskContainer .viewTaskWrapper h1 {
   font-size: 18px;
   font-weight: 600;
 }
-.ViewTask .taskDetails {
+.viewTaskContainer .viewTaskWrapper .taskDetails {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: "...";
 }
-.ViewTask .taskDetails p {
+.viewTaskContainer .viewTaskWrapper .taskDetails p {
   font-size: 16px;
   color: rgba(0, 0, 0, 0.61);
 }
-.ViewTask .Timing_Section {
+.viewTaskContainer .viewTaskWrapper .Timing_Section {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.ViewTask .Timing_Section span {
+.viewTaskContainer .viewTaskWrapper .Timing_Section span {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.47);
 }
-.ViewTask .Timing_Section .Timing {
+.viewTaskContainer .viewTaskWrapper .Timing_Section .Timing {
   display: flex;
   align-items: center;
 }
-.ViewTask .Timing_Section .Timing p {
+.viewTaskContainer .viewTaskWrapper .Timing_Section .Timing p {
   font-size: 14px;
   color: #000;
 }
-.ViewTask .Timing_Section .Timing img {
+.viewTaskContainer .viewTaskWrapper .Timing_Section .Timing img {
   padding-right: 6px;
 }
-.ViewTask .btn_warning {
+.viewTaskContainer .viewTaskWrapper .btn_warning {
   background: var(--secondary-light);
   border: none;
   padding: 5px 25px;

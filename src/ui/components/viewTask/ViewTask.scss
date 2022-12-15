@@ -1,49 +1,55 @@
-.ViewTask{
-    h1{
-        font-size: 18px;
-        font-weight: 600;
-    }
-    .taskDetails{
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: '...';
-        p{
-            font-size: 16px;
-            color: rgba(0, 0, 0, 0.61);
+.viewTaskContainer{
+    .viewTaskWrapper{
+        background: var(--white);
+        border-radius: 10px;
+        h1{
+            font-size: 18px;
+            font-weight: 600;
         }
-
-    }
- 
-
-    .Timing_Section{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        span{
-            font-size: 14px;
-            color: rgba(0, 0, 0, 0.47);
+        .taskDetails{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: '...';
+            p{
+                font-size: 16px;
+                color: rgba(0, 0, 0, 0.61);
+            }
+    
         }
-
-        .Timing{
+     
+    
+        .Timing_Section{
             display: flex;
             align-items: center;
-            p{
+            justify-content: space-between;
+            span{
                 font-size: 14px;
-                color: #000;
+                color: rgba(0, 0, 0, 0.47);
             }
-            img{
-                padding-right: 6px;
+    
+            .Timing{
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 14px;
+                    color: #000;
+                }
+                img{
+                    padding-right: 6px;
+                }
             }
         }
+        .btn_warning{
+            background: var(--secondary-light);
+            border: none;
+            padding: 5px 25px;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--secondary);
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
     }
-    .btn_warning{
-        background: var(--secondary-light);
-        border: none;
-        padding: 5px 25px;
-        font-size: 16px;
-        font-weight: 600;
-        color: var(--secondary);
-        border-radius: 5px;
-        margin-top: 15px;
-    }
+    
 }

@@ -10,7 +10,7 @@ import Title from '../../components/title/Title'
 function Dashboard() {
   return (
     <>
-      <div className='MainBackground pt-3'>
+      <div className='mainBackground pt-3'>
         <div className='container'>
          <Title name='Dashboard' />
           <div>

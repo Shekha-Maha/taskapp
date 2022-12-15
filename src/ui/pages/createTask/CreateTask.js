@@ -10,7 +10,7 @@ import oderList from '../../../assets/oderList.png'
 function CreateTask() {
     return (
         <>
-            <div className='MainBackground pt-4'>
+            <div className='mainBackground pt-4'>
                 <div className='container'>
                     <Title name="Create Task" />
                 </div>

@@ -2,12 +2,12 @@ import React from 'react'
 import TimeZone from '../../components/timeZone/TimeZone'
 import Title from '../../components/title/Title'
 import ViewTask from '../../components/viewTask/ViewTask'
+import './AllTask.css'
 
 
 function AllTask() {
   return (
-    <div className='MainBackground pt-3'>
-      <div>
+    <div className='mainBackground pt-3'>
         <div className='container'>
           <Title name="All Task" />
           <div className=''>
@@ -15,7 +15,6 @@ function AllTask() {
             <ViewTask />
           </div>
         </div>
-      </div>
     </div>
   )
 }

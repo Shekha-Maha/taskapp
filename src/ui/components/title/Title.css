@@ -1,3 +1,6 @@
+.Title {
+  background: var(--primary-light);
+}
 .Title h2 {
   font-size: 24px;
   font-weight: 600;
